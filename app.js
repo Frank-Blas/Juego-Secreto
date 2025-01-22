@@ -71,7 +71,7 @@ function generarNumeroSecreto() {
 //funciones mensajes iniciales
 function condicionesIniciales(){
     asignarTextoElemento("h1","Juego del Numero Secreto!");
-    asignarTextoElemento(`p","Indica un Numero entre el 1 y el ${numeroMaximo}`);
+    asignarTextoElemento("p",`Indica un Numero entre el 1 y el ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
